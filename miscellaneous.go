@@ -163,7 +163,7 @@ type EyeOffset struct {
 
 // CustomProperties represents a key-value mapping
 // https://github.com/AnalyticalGraphicsInc/czml-writer/wiki/CustomProperties
-type CustomProperties map[string]struct{}
+type CustomProperties map[string]interface{}
 
 // ReferenceListOfListsValue is a list of lists of references to other properties
 // https://github.com/AnalyticalGraphicsInc/czml-writer/wiki/ReferenceListOfListsValue
