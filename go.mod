@@ -1,4 +1,4 @@
-module github.com/luna-sim/czml
+module github.com/deimos-labs/czml
 
 go 1.16
 
